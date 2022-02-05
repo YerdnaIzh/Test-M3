@@ -8,6 +8,7 @@ public class Loader
 
     public static void main(String[] args)
     {
+		System.out.println("Task 1:");
         Cat cat1 = new Cat();
         Cat cat2 = new Cat();
         Cat cat3 = new Cat();
@@ -29,8 +30,8 @@ public class Loader
 
 		System.out.println();
 
-			System.out.println("Cat1 weighs now " + cat1.getWeight());
-			System.out.println("Cat2 weighs now " + cat2.getWeight());
+		System.out.println("Cat1 weighs now " + cat1.getWeight());
+		System.out.println("Cat2 weighs now " + cat2.getWeight());
 
 		System.out.println();
 
@@ -50,6 +51,7 @@ public class Loader
 
 		System.out.println();
 
+		System.out.println("Task 2:");
 		Cat cat8 = new Cat();
 		cat8.feed(150.0);
 
@@ -64,6 +66,8 @@ public class Loader
 		System.out.println("There are " + Cat.getCount() + " cats.");
 
 		System.out.println();
+
+		System.out.println("Task 3:");
 		cat1.feed(100.0);
 		System.out.println();
 
@@ -71,5 +75,8 @@ public class Loader
 		System.out.println("Cat 9 is " + cat9.getStatus());
 		System.out.println("There are " + Cat.getCount() + " cats currently.");
 		System.out.println();
+
+		System.out.println("Tasks 4-7: see Cat.java");
+		System.out.println("Task 8: название функций в airport мне неизвестны, видео недоступно - выполнить не могу.");
 	}
 }

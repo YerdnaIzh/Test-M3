@@ -55,7 +55,7 @@ public class Cat
 			/* System.out.println("Meow"); */
 			count -= this.checkIfDead();
 		} else {
-			System.out.println("This cat is dead.");
+			System.out.println("This cat is dead and can't perform \"meow\".");
 		}
     }
 
@@ -66,7 +66,7 @@ public class Cat
 			this.addFoodEaten(amount);
 			count -= this.checkIfDead();
 		} else {
-			System.out.println("This cat is dead.");
+			System.out.println("This cat is dead and can't be feeded.");
 		}
     }
 
@@ -76,7 +76,7 @@ public class Cat
 			weight = weight + amount;
 			count -= this.checkIfDead();
 		} else {
-			System.out.println("This cat is dead.");
+			System.out.println("This cat is dead and can't perform \"drink\".");
 		}
     }
 
@@ -107,7 +107,7 @@ public class Cat
 			System.out.println("A certain cat peed.");
 			count -= this.checkIfDead();
 		} else {
-			System.out.println("This cat is dead.");
+			System.out.println("This cat is dead and can't perform \"pee\".");
 		}
 	}
 
